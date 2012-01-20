@@ -2,3 +2,5 @@
 themes/*
 plugins/*
 wordpress/*
+Gemfile.lock
+
