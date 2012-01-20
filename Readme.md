@@ -9,7 +9,7 @@ NEVER WORRY ABOUT SETTING UP MYSQL AND PHP ON YOUR COMPUTER EVER AGAIN!
 
 ## Requirements ##
 
-* [Bundler][bundler]
+* [Bundler](http://github.com/carlhuda/bundler)
 
     $ gem install bundler
 
@@ -42,6 +42,6 @@ virtual machine once you're finished using:
 
 You also get a basic configuration of [Cucumber](http://cukes.info/) set up to
 make sure your initial install of WordPress is sane. Just run `bundle exec cucumber`.
-You'll be using [capybara-webkit][capybara-webkit] to run your tests in a virtual
+You'll be using [capybara-webkit](http://github.com/thoughtbot/capybara-webkit) to run your tests in a virtual
 browser. Write those acceptance tests for your theme/plugin!
 
