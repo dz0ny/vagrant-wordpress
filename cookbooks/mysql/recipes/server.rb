@@ -22,9 +22,9 @@
 include_recipe "mysql::client"
 
 # generate all passwords
-node.set_unless['mysql']['server_debian_password'] = secure_password
-node.set_unless['mysql']['server_root_password']   = secure_password
-node.set_unless['mysql']['server_repl_password']   = secure_password
+node.set_unless['mysql']['server_debian_password'] = 'password'
+node.set_unless['mysql']['server_root_password']   = 'password'
+node.set_unless['mysql']['server_repl_password']   = 'password'
 
 if platform?(%w{debian ubuntu})
 
